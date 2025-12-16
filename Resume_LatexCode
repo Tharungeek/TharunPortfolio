@@ -1,0 +1,194 @@
+%-------------------------
+% ATS-Optimized Resume - Tharun Kumar Pilla
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[margin=0.5in]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Tharun Kumar Pilla} \\ \vspace{4pt}
+    \small \faPhone\ +91-8019701636 $|$ 
+    \href{mailto:tharunkumarpilla@gmail.com}{\faEnvelope\ tharunkumarpilla@gmail.com} $|$ 
+    \href{https://linkedin.com/in/tharun-kumar-pilla-608296252}{\faLinkedin\ LinkedIn} $|$
+    \faMapMarker\ Visakhapatnam, Andhra Pradesh, India
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Aditya Degree College (Aditya Educational Institutions)}{Visakhapatnam, Andhra Pradesh}
+      {Bachelor of Computer Applications (BCA) -- CGPA: 8.2/10}{May 2022 -- April 2025}
+    \resumeSubheading
+      {Government Polytechnic}{Garividi, Vizianagaram}
+      {Diploma in Animal Husbandry}{Graduated 2022}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, Java, SQL, JavaScript, HTML, CSS} \\
+     \textbf{Data Structures \& Algorithms}{: Arrays, Linked Lists, Trees, Graphs, Sorting, Searching, Dynamic Programming} \\
+     \textbf{Machine Learning \& AI}{: Supervised Learning, Unsupervised Learning, Reinforcement Learning, Scikit-learn} \\
+     \textbf{Data Science Libraries}{: Pandas, NumPy, Matplotlib, Data Analysis, Data Visualization} \\
+     \textbf{Web Development}{: Full-Stack Development, RESTful APIs, Frontend/Backend Integration} \\
+     \textbf{Cloud \& DevOps}{: Cloud Computing, DevOps Essentials, CI/CD Pipelines} \\
+     \textbf{Developer Tools}{: Git, GitHub, Visual Studio Code, IntelliJ IDEA, Jupyter Notebook} \\
+     \textbf{Database Management}{: MySQL, PostgreSQL, Database Design, Query Optimization}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Machine Learning Internship Trainee}{May 2024 -- July 2024}
+      {ULEARN}{Visakhapatnam, Andhra Pradesh}
+      \resumeItemListStart
+        \resumeItem{Developed machine learning models using Python, implementing supervised, unsupervised, and reinforcement learning algorithms to solve complex problems with 85\%+ accuracy}
+        \resumeItem{Performed data analysis on datasets with 10,000+ records using Pandas and NumPy, creating visualizations with Matplotlib to drive data-driven decision making}
+        \resumeItem{Optimized algorithms and data structures improving computational efficiency by 30\% through strategic design patterns}
+        \resumeItem{Collaborated in agile teams utilizing Git for version control, conducting code reviews and delivering projects within sprint timelines}
+        \resumeItem{Presented technical findings to stakeholders, demonstrating strong communication and ability to explain complex concepts clearly}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Machine Learning Prediction System} $|$ \emph{Python, Scikit-learn, Pandas, NumPy}}{2024}
+        \resumeItemListStart
+          \resumeItem{Engineered end-to-end ML pipeline with data preprocessing, feature engineering, and model deployment achieving 87\% accuracy}
+          \resumeItem{Implemented multiple algorithms (Random Forest, SVM, Neural Networks) and performed hyperparameter tuning using GridSearchCV}
+          \resumeItem{Applied cross-validation and evaluated models using precision, recall, F1-score, and ROC-AUC metrics}
+        \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{Full-Stack Web Application} $|$ \emph{JavaScript, HTML, CSS, Node.js, SQL, Git}}{2024}
+        \resumeItemListStart
+          \resumeItem{Built scalable web application with authentication, authorization, and role-based access control serving 500+ concurrent users}
+          \resumeItem{Designed RESTful APIs and implemented MVC architecture with optimized database queries reducing response time by 40\%}
+          \resumeItem{Developed responsive UI with modern JavaScript frameworks ensuring cross-browser compatibility and mobile-first design}
+        \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{Data Analytics Dashboard} $|$ \emph{Python, Pandas, Matplotlib, SQL}}{2024}
+        \resumeItemListStart
+          \resumeItem{Created interactive visualization dashboard processing and analyzing 15,000+ records to identify trends and business insights}
+          \resumeItem{Implemented ETL pipeline for data cleaning, transformation, and loading from multiple sources into unified database}
+          \resumeItem{Automated reporting system reducing manual analysis time by 60\% while improving data accuracy}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS & COMPETITIONS-----------
+\section{Achievements \& Competitive Programming}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     $\bullet$ \textbf{Accenture Innovator Challenge} -- Awarded for innovative solution in national-level competition \\
+     $\bullet$ \textbf{CodeChef 100 Days Challenge} -- Completed intensive coding challenge, solving 100+ algorithmic problems \\
+     $\bullet$ \textbf{College Chess Champion} -- 1st Prize demonstrating strategic thinking and problem-solving under pressure \\
+     $\bullet$ \textbf{Tech Blaze 2K23} -- Participated in technical hackathon showcasing development and teamwork skills \\
+     $\bullet$ \textbf{HackerRank Python Certification} -- Verified proficiency in Python programming and problem-solving \\
+     $\bullet$ \textbf{High Academic Performance} -- Maintained 8.2 CGPA demonstrating consistent excellence across technical coursework
+    }}
+ \end{itemize}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     $\bullet$ PCAP: Programming Essentials in Python (Python Institute) \hfill
+     $\bullet$ HackerRank Python Certification \\
+     $\bullet$ ULearn AI \& Machine Learning using Python \hfill
+     $\bullet$ DevOps Essentials (edX Verified) \\
+     $\bullet$ Introduction to Cloud Computing (edX Verified) \hfill
+     $\bullet$ Infosys Springboard IoT Certification \\
+     $\bullet$ Tata Data Visualisation Job Simulation (Forage) \hfill
+     $\bullet$ Pearson MePro Level 10
+    }}
+ \end{itemize}
+
+%-----------LEADERSHIP & ACTIVITIES-----------
+\section{Leadership \& Extracurricular Activities}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{National Service Scheme (NSS)}{: Active member contributing to community service and social initiatives} \\
+     \textbf{Animal Care Volunteer}{: Applied technical and analytical skills to animal welfare projects, demonstrating versatility} \\
+     \textbf{Languages}{: English (Fluent), Spanish (Beginner), Telugu (Native)} \\
+     \textbf{Interests}{: Competitive Programming, Chess Strategy, Innovation (inspired by Nikola Tesla), Algorithmic Puzzles}
+    }}
+ \end{itemize}
+
+\end{document}
